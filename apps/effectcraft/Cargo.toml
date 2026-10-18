@@ -10,6 +10,9 @@ default-run = "effectcraft"
 workspace = true
 
 [dependencies]
+base64 = "0.22"
+ed25519-dalek = { version = "2", default-features = false, features = ["std"] }
+sha2 = "0.11"
 effectcraft-engine = { workspace = true }
 effectcraft-host = { workspace = true }
 effectcraft-ui-egui = { workspace = true }
